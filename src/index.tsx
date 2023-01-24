@@ -4,6 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { getAnalytics } from 'firebase/analytics';
+import { initializeApp } from 'firebase/app';
+import firebaseConfig from './config/firebase';
+
+
+const app = initializeApp(firebaseConfig);
+
+
+const analytics = getAnalytics(app);
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
