@@ -8,12 +8,9 @@ import about from "../../img/braces.svg";
 function Menu() {
   const location = useLocation();
   const docFavicon = document.createElement("link");
+  document.head.appendChild(docFavicon);
   docFavicon.rel = "icon";
   React.useEffect(() => {
-    console.log(docFavicon);
-    console.log(location.pathname, "location");
-    document.head.appendChild(docFavicon);
-
     switch (location.pathname) {
       case "/":
         document.title = "Julio Filizzola";
@@ -21,20 +18,15 @@ function Menu() {
           "https://avatars.githubusercontent.com/u/65046505?v=4";
         break;
       case "/sobre":
-        console.log("/sobre");
-
         document.title = "Sobre";
         docFavicon.href = about;
         break;
       case "/projetos":
-        console.log("/projetos");
-
         document.title = "Meus Projetos";
         docFavicon.href = box;
         break;
       case "/estudos":
-        console.log("/estudos");
-
+   
         document.title = "Estudos";
         docFavicon.href = learn;
         break;

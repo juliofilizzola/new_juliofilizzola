@@ -1,0 +1,55 @@
+{
+  "projects": [
+    {
+      "description": "Repositorio de estudos de Golang",
+      "name": "GoLang",
+      "type": "NEW_LANGUAGE",
+      "image_src": "golang.png",
+      "url_repo": "https://github.com/juliofilizzola/go_studies"
+    },
+    {
+      "description": "Repositorio de estudos de terraform",
+      "name": "Terraform",
+      "type": "NEW_LANGUAGE",
+      "image_src": "golang.png",
+      "url_repo": "https://github.com/juliofilizzola/terraform",
+      "url_repo_2": "https://github.com/juliofilizzola/project_studies"
+    },
+    {
+      "description": "Repositorio de estudos de graphql",
+      "name": "GoLang",
+      "type": "NEW_FRAMEWORK",
+      "image_src": "golang.png",
+      "url_repo": "https://github.com/juliofilizzola/curso-graphql"
+    },
+    {
+      "description": "Repositorio de estudos de Ruby",
+      "name": "Ruby",
+      "type": "NEW_LANGUAGE",
+      "image_src": "ruby.png",
+      "url_repo": "https://github.com/juliofilizzola/ruby-studies"
+    },
+    {
+      "description": "Repositorio de estudos de Java",
+      "name": "Java",
+      "type": "NEW_LANGUAGE",
+      "image_src": "golang.png",
+      "url_repo": "https://github.com/juliofilizzola/Java_studies"
+    },
+    {
+      "description": "Repositorio de estudos de Typescript And S.O.L.I.D",
+      "name": "Typescript",
+      "type": "NEW_LANGUAGE",
+      "image_src": "golang.png",
+      "url_repo": "https://github.com/juliofilizzola/solidAndTest"
+    },
+    {
+      "description": "Repositorio de estudos de C#",
+      "name": "C#",
+      "type": "NEW_LANGUAGE",
+      "image_src": "golang.png",
+      "url_repo": "https://github.com/juliofilizzola/C-Sharp_studies"
+    }
+  ]
+  
+}

@@ -1,12 +1,12 @@
-import Menu from "../../componets/menu/menu";
+import Menu from "../../components/menu/menu";
 
 function Project() {
-  return(
+  return (
     <>
-      <Menu/>
+      <Menu />
       <p>Esses são os meus projetos</p>
     </>
-  )
+  );
 }
 
 export default Project;
