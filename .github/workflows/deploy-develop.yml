@@ -3,7 +3,7 @@ name: juliofilizzola
 on:
   push:
     branches:
-      - develop
+      - dev
 jobs:
   build-and-deploy:
     environment: staging
